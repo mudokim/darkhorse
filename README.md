@@ -1,4 +1,3 @@
-# darkhorse
 # Darkhorse
 
 LIMO 로봇을 활용한 건강검진 보조 도우미 로봇 프로젝트입니다.
