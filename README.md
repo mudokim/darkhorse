@@ -268,9 +268,3 @@ ros2 topic pub /nav_emergency std_msgs/msg/Bool "{data: false}"
 또한 실제 LIMO를 주행시키면서 simulation과 달리 localization, 장애물 센서, 속도, 정지 거리 등 여러 요소가 동시에 navigation 품질에 영향을 준다는 점을 확인했습니다.
 
 Behavior Tree를 적용하면서 정상 안내 흐름과 비상 행동을 분리하고, 각 기능을 독립적인 행동 단위로 구성하는 방법도 경험했습니다.
-
-## Portfolio / Visual Demo
-
-서비스 시나리오, Behavior Tree 구조, 실제 LIMO 주행 사진 및 영상은 아래 포트폴리오 페이지에 정리되어 있습니다.
-
-- [LIMO Hospital Guide Robot · Nav2 + Behavior Tree](https://app.notion.com/p/5a336ae1bc338360863c016e84625bb2)
